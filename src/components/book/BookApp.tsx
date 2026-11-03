@@ -137,7 +137,7 @@ export function BookApp({
             className="min-w-0 flex-1 truncate text-left font-display text-lg"
             onClick={() => openChapter("cover")}
           >
-            Seed to Seed
+            Pip to Orchard
           </button>
           <button
             type="button"
@@ -224,6 +224,10 @@ export function BookApp({
             <Cover mark={mark} onOpen={openChapter} />
           )}
         </main>
+        <footer className="shrink-0 border-t border-line bg-sheet px-4 py-3 text-xs leading-relaxed text-muted">
+          Privacy: This guide does not collect your name, email, or any personal information. Your choices are
+          saved only on your own device.
+        </footer>
       </div>
 
       {menu ? (
@@ -302,8 +306,10 @@ function Sidebar({
         <button type="button" className="flex items-center gap-2 text-left" onClick={() => onOpen("cover")}>
           <Leaf className="size-5 text-leaf" />
           <span>
-            <span className="block font-display text-xl leading-none">Seed to Seed</span>
-            <span className="mt-1 block text-xs tracking-wide text-muted uppercase">A fruit tree almanac</span>
+            <span className="block font-display text-lg leading-tight">Fruit Trees: Pip to Orchard</span>
+            <span className="mt-1 block text-xs tracking-wide text-muted uppercase">
+              Pocket Guide, Volume 11
+            </span>
           </span>
         </button>
         <div className="mt-4">
@@ -358,8 +364,13 @@ function Cover({
           className="w-full border border-line"
         />
         <div>
-          <p className="text-xs tracking-[0.2em] text-leaf uppercase">From seed to seed</p>
-          <h1 className="mt-2 font-display text-5xl leading-none text-ink sm:text-6xl">Seed to Seed</h1>
+          <p className="text-xs tracking-[0.16em] text-leaf uppercase">
+            The Education Revolution Pocket Guide, Volume 11
+          </p>
+          <h1 className="mt-2 font-display text-5xl leading-none text-ink sm:text-6xl">
+            Fruit Trees: Pip to Orchard
+          </h1>
+          <p className="mt-3 font-display text-xl text-bark">by Blue and the Awesome Dudes</p>
           <p className="mt-4 max-w-xl text-lg leading-relaxed">
             Fruit trees grown, eaten, put up, and planted again. Canning, jams and jellies, storage, and the
             recipes that use them. A bonus on the hibiscus — the tree, the calyx, the tea — and a second bonus
@@ -369,7 +380,7 @@ function Cover({
             <button
               type="button"
               className="inline-flex min-h-11 items-center bg-leaf px-4 font-display text-sheet"
-              onClick={() => onOpen("how-to-use")}
+              onClick={() => onOpen("start-here")}
             >
               Open the book
             </button>

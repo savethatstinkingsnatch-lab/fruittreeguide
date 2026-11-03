@@ -3,6 +3,9 @@ import type { Recipe, RecipeKind } from "./types";
 export const BATH =
   "Boiling-water bath, jars on a rack with an inch or two of water over the lids. Start timing when the water returns to a full rolling boil. Add 5 minutes at 1,001–3,000 feet, 10 at 3,001–6,000, 15 at 6,001–8,000, and 20 at 8,001–10,000. Cool jars upright and untouched for 12–24 hours. A sealed lid is firm and down in the center. Refrigerate any jar that does not seal. If a seal fails later in the cupboard, discard the food without tasting.";
 
+export const COLD =
+  "Store in the refrigerator and use within 3 weeks, or freeze.";
+
 export const recipes: Recipe[] = [
   {
     id: "quince-apple-jelly",
@@ -21,10 +24,10 @@ export const recipes: Recipe[] = [
       "Put the chopped fruit in a heavy pot and add water until you can just see it. Simmer, covered, until the fruit is soft and pale, about 45 minutes.",
       "Pour into a jelly bag or a fine cloth set over a sieve. Let it drip. Squeezing gives more juice and a cloudy jelly; not squeezing gives a clearer one.",
       "Measure the juice. Add 3/4 cup sugar per cup. Bring to a hard boil, stirring until the sugar dissolves, and cook to the gel point: 8°F above the temperature at which water boils in your kitchen, or until a cold spoon sheets instead of dripping in separate drops.",
-      "Skim, ladle into hot half-pint jars, leave 1/4 inch headspace, wipe rims, and fit new lids.",
-      `Process 10 minutes. ${BATH}`,
+      "Skim, ladle into clean jars, and leave 1/4 inch headspace.",
+      COLD,
     ],
-    note: "Quince carries the pectin. A very ripe, bland apple will not. If the jelly weeps in the jar, the boil was shy of gel; it is still good on toast, kept refrigerated if the seal is the thing you doubt.",
+    note: "Quince carries the pectin. A very ripe, bland apple will not. If the jelly does not set, call it syrup and keep it cold.",
   },
   {
     id: "crabapple-jelly",
@@ -41,7 +44,7 @@ export const recipes: Recipe[] = [
     steps: [
       "Simmer the crabs until they fall apart. Strain as for quince jelly. Do not push the pulp through.",
       "Cook juice and sugar to the gel point. Crabapples are often so rich in pectin that the jelly sets suddenly — watch it.",
-      `Jar at 1/4 inch headspace and process half-pints 10 minutes. ${BATH}`,
+      COLD,
     ],
   },
   {
@@ -61,9 +64,9 @@ export const recipes: Recipe[] = [
       "Score the peaches, blanch a minute, and slip off the skins. Cut away every trace of the pit. Chop.",
       "Cook peaches, apple, and lemon juice over medium heat until the peaches soften, about 15 minutes, stirring so the bottom does not catch.",
       "Add the sugar. Boil, stirring often, to the gel point. Peach jam should mound on a cold plate and wrinkle when pushed.",
-      `Ladle into hot half-pint jars, 1/4 inch headspace. Process 10 minutes. ${BATH}`,
+      COLD,
     ],
-    note: "The apple is there for pectin, the lemon for acid and brightness. This is a traditional long-cook jam, not a boxed-pectin formula. If you switch to commercial pectin, follow that package and keep the fruit fully ripe and yellow-fleshed.",
+    note: "The apple is there for pectin, the lemon for acid and brightness. This is a kitchen jam, not a National Center for Home Food Preservation formula.",
   },
   {
     id: "mulberry-jam",
@@ -80,7 +83,7 @@ export const recipes: Recipe[] = [
     steps: [
       "Crush the berries in the pot with a potato masher. Add the lemon juice and bring to a simmer for 10 minutes.",
       "Add sugar and boil to a gel. Mulberries can stay loose; cook until a dab on a frozen plate wrinkles.",
-      `Jar, 1/4 inch headspace, process half-pints 10 minutes. ${BATH}`,
+      COLD,
     ],
     note: "Wear a dark apron. Mulberry stain is honest and lasting.",
   },
@@ -100,7 +103,7 @@ export const recipes: Recipe[] = [
     steps: [
       "Simmer plums with the water until they collapse. Mill them if you want no skin; small plum skins can stay.",
       "Add sugar and lemon juice. Cook low, stirring often, until a spoon drawn through leaves a trail. It should still settle in the jar, not stand up like paste.",
-      `Pack hot half-pints, 1/4 inch headspace. Process 15 minutes so heat can reach the center of a thick preserve. ${BATH} If the butter is stiff enough to hold a spoon upright, freeze it instead.`,
+      COLD,
     ],
   },
   {
@@ -120,9 +123,9 @@ export const recipes: Recipe[] = [
     steps: [
       "Combine figs, lemon juice, zest, and sugar. Rest 20 minutes.",
       "Boil gently, stirring, until thick and glossy, 20–30 minutes. Figs are not sharp fruit; the bottled lemon juice stays in the recipe.",
-      `Jar at 1/4 inch and process half-pints 10 minutes. ${BATH}`,
+      COLD,
     ],
-    note: "Do not can whole figs from this chapter. Acidity varies, and the tested times are long. Lemon in a soft conserve, processed in small jars, is the method here. Skip the nuts if you want a smoother seal of fruit alone; if you add them, keep pieces small.",
+    note: "Do not can whole figs from this chapter. Acidity varies. This conserve stays in the refrigerator or the freezer. Skip the nuts if you want a smoother conserve; if you add them, keep pieces small.",
   },
   {
     id: "pear-ginger",
@@ -141,7 +144,7 @@ export const recipes: Recipe[] = [
     steps: [
       "Cook pears, lemon, ginger, and apple if using, until the pears turn clear at the edges.",
       "Add sugar and boil to a soft gel. Pear conserve is allowed to be tender.",
-      `Jar half-pints, 1/4 inch, process 10 minutes. ${BATH}`,
+      COLD,
     ],
     note: "European pears. Asian pears are a different acidity question; use a tested recipe made for them.",
   },
@@ -162,7 +165,7 @@ export const recipes: Recipe[] = [
       "Soak peel, juice, and the seed bag in the water overnight. The seeds lend pectin.",
       "Simmer until the peel is tender, an hour or more. Remove the seed bag, squeezing it well.",
       "Measure the pulp and add the same volume of sugar. Boil to a gel. Marmalade sheets on a cold spoon when it is ready.",
-      `Jar, 1/4 inch, process half-pints 10 minutes. ${BATH}`,
+      COLD,
     ],
   },
   {
@@ -181,7 +184,7 @@ export const recipes: Recipe[] = [
     steps: [
       "Simmer the calyces in the water until they are soft and the liquid is deep red, about 15 minutes. Fish out the ginger if you used it.",
       "Add the sugar and boil to a gel. Roselle is acid and often sets willingly.",
-      `Jar half-pints at 1/4 inch and process 10 minutes. ${BATH}`,
+      COLD,
     ],
     note: "This is Hibiscus sabdariffa, the calyx, not the ornamental flower. See the hibiscus chapters before you pick.",
   },
@@ -203,7 +206,7 @@ export const recipes: Recipe[] = [
       "Hot pack: simmer the peaches in syrup or water for 2 minutes. Fill hot jars, pit cavities down, and cover with boiling liquid. Leave 1/2 inch headspace. Remove bubbles, wipe rims, put on new lids.",
       `Process hot-packed pints 20 minutes and quarts 25 minutes at 0–1,000 feet. Raw pack is 25 and 30. ${BATH}`,
     ],
-    note: "Do not boiling-water can white-flesh peaches. Some of them are not acid enough. Freeze those, or eat them.",
+    note: "Tested boiling-water schedule from the National Center for Home Food Preservation for yellow-flesh peaches. Do not boiling-water can white-flesh peaches. Some of them are not acid enough. Freeze those, or eat them.",
   },
   {
     id: "pears-in-syrup",
@@ -222,7 +225,7 @@ export const recipes: Recipe[] = [
       "Simmer in the hot liquid 5 minutes. Pack hot, cover with boiling liquid, 1/2 inch headspace.",
       `Process pints 20 minutes and quarts 25 minutes at 0–1,000 feet. ${BATH}`,
     ],
-    note: "Pick pears when they lift off the spur with a tilt, still firm. Ripen them in a cool room, then can the ones that press slightly at the stem.",
+    note: "Tested boiling-water schedule from the National Center for Home Food Preservation for European pears. Pick pears when they lift off the spur with a tilt, still firm. Ripen them in a cool room, then can the ones that press slightly at the stem. Asian pears need a different, acidified recipe.",
   },
   {
     id: "applesauce",
@@ -242,6 +245,7 @@ export const recipes: Recipe[] = [
       "Return the sauce to the pot, sweeten if you like, and bring it back to a boil.",
       `Hot pack, 1/2 inch headspace. Process pints 15 minutes and quarts 20 minutes at 0–1,000 feet. ${BATH}`,
     ],
+    note: "Tested boiling-water schedule from the National Center for Home Food Preservation for applesauce. Sugar is optional.",
   },
   {
     id: "canned-plums",
@@ -255,11 +259,11 @@ export const recipes: Recipe[] = [
       "Medium or light syrup, or water",
     ],
     steps: [
-      "Wash. Prick each skin with a needle so the fruit does not burst. Halve and pit if the stone comes free; otherwise can them whole.",
-      "Hot pack: heat plums in syrup for 2 minutes. Pack, cover with boiling liquid, 1/2 inch headspace.",
+      "Wash. Prick whole plums on two sides with a fork so the skins do not split. Halve and pit freestone plums.",
+      "Hot pack: add the plums to water or hot syrup and boil 2 minutes. Cover and let stand 20 to 30 minutes. Fill jars with the hot plums and cooking liquid. Leave 1/2 inch headspace.",
       `Process pints 20 minutes and quarts 25 minutes at 0–1,000 feet. ${BATH}`,
     ],
-    note: "The pit stays out of anything you will store and later feed, cook down, or give away. If you can whole plums, tell the household the stone is still inside.",
+    note: "Tested boiling-water schedule from the National Center for Home Food Preservation for plums, halved or whole. If you can whole plums, the stone is still inside.",
   },
   {
     id: "dried-apples",

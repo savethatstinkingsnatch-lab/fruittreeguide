@@ -1,8 +1,8 @@
 import { i as __toESM } from "../_runtime.mjs";
 import { K as require_react, b as require_jsx_runtime } from "../_libs/@tanstack/react-router+[...].mjs";
 import { a as Menu, c as ChevronLeft, i as Search, l as Bookmark, n as Type, o as Leaf, s as ChevronRight, t as X } from "../_libs/lucide-react.mjs";
-import { n as Route } from "./router-CodXdq5Q.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-DVZvemOW.js
+import { n as Route } from "./router-CPJam9jb.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-d4rUUF7J.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var art = {
@@ -131,6 +131,37 @@ var months = [
 ];
 var chapters = [
 	{
+		id: "start-here",
+		part: "Front matter",
+		num: "Go",
+		title: "Start here",
+		lede: "New to fruit trees? Do these in order.",
+		blocks: [
+			{
+				t: "ol",
+				items: [
+					"Find your USDA zone and your chill hours (ask your county extension office).",
+					"Pick fruits that fit your winter. Check whether they need a pollination partner.",
+					"Buy grafted trees from a nursery. Seeds from store fruit will not grow the same fruit.",
+					"Plant in full sun, in soil that drains, with the graft bump above the soil.",
+					"Water deeply every week the first summer. Keep grass away from the trunk.",
+					"Prune in late winter. Thin the fruit in early summer.",
+					"Want to grow from seed for fun or for rootstock? See “Waking a seed.”"
+				]
+			},
+			{
+				t: "jump",
+				label: "Waking a seed",
+				to: "waking-seed"
+			},
+			{
+				t: "jump",
+				label: "Words used in this guide",
+				to: "glossary"
+			}
+		]
+	},
+	{
 		id: "how-to-use",
 		part: "Front matter",
 		num: "00",
@@ -173,7 +204,7 @@ var chapters = [
 				t: "ul",
 				items: [
 					"Water-bath can high-acid fruit. Do not water-bath vegetables, meat, or soup in a fruit jar beside them.",
-					"Use tested times for canned fruit. Jam in this book is the traditional long-cook kind, processed in small jars. If you want a boxed-pectin formula, follow the box.",
+					"Use tested times for canned peaches, pears, plums, and applesauce. The jams, jellies, butters, and conserves in this book are not tested canning formulas. Store them in the refrigerator and use them within 3 weeks, or freeze them.",
 					"Do not seal jars with paraffin, cloth, or an inverted lid and a hope. The pantry picture in this book is a mood. The seal is a two-piece lid and a boil.",
 					"White-flesh peaches are not for boiling-water canning.",
 					"Figs need bottled lemon juice in any jar you process. Their acidity wanders.",
@@ -193,6 +224,20 @@ var chapters = [
 					"Persimmons and horses do not share a field.",
 					"Only cook ripe black or blue elderberry. Not red elder, not leaves, not raw bunches you are unsure of.",
 					"Hibiscus for the cup is roselle you grew or a flower you can name, unsprayed. Florist stems are not ingredients."
+				]
+			},
+			{
+				t: "h",
+				text: "Stay safe in the orchard"
+			},
+			{
+				t: "ul",
+				items: [
+					"Ladders: Use a 3-legged orchard ladder on soft ground, or a stepladder fully open and locked. Never stand on the top two steps. Don't reach so far that your belt buckle passes the side rail. Have someone nearby.",
+					"Sprays: Even organic sprays can hurt you. Read the whole label. The label is the law. Wear gloves, long sleeves, and eye protection. Never spray open blossoms, because it kills bees. Wait the number of days the label says before you pick.",
+					"Seeds and pits: Never eat, grind, or brew apple seeds or the kernels inside cherry, peach, plum, or apricot pits. They can release cyanide.",
+					"Wild trees: Never eat fruit from a tree or shrub you can't name for sure. Wild cherry leaves are poisonous to livestock. Yew, buckthorn, and nightshade berries are poisonous.",
+					"If someone eats something poisonous, call Poison Control at 1-800-222-1222."
 				]
 			},
 			{
@@ -231,6 +276,14 @@ var chapters = [
 			{
 				t: "pull",
 				text: "Buy one grafted tree of a fruit you already love. Grow three seedlings of a fruit that comes reasonably true. Learn from the difference."
+			},
+			{
+				t: "h",
+				text: "Plant patents"
+			},
+			{
+				t: "p",
+				text: "Many new fruit varieties are patented. The tag will show “PP” and a number. It is against the law to graft or root copies of a patented tree to give away or sell until the patent runs out, usually 20 years. Older varieties are free to graft and share."
 			}
 		]
 	},
@@ -453,6 +506,14 @@ var chapters = [
 			},
 			{
 				t: "h",
+				text: "Chill hours"
+			},
+			{
+				t: "p",
+				text: "Most fruit trees need a certain number of winter hours between 32 and 45°F before they will bloom. This is called chill hours. A tree that needs 800 hours will not fruit well in a warm-winter area that only gets 300. In the South, buy low-chill varieties. Your county extension office can tell you your area's chill hours."
+			},
+			{
+				t: "h",
 				text: "The hole"
 			},
 			{
@@ -468,6 +529,23 @@ var chapters = [
 			{
 				t: "p",
 				text: "Distance is the part people cheat. A standard apple wants a room of its own, on the order of 20 feet. A peach wants 15. A quince or a pomegranate can live closer. Roots share more politely than branches do. Crowded crowns stay wet, and wet blossoms get brown rot and scab."
+			},
+			{
+				t: "h",
+				text: "Spacing by tree size"
+			},
+			{
+				t: "p",
+				text: "Tree size depends on the rootstock, the roots it was grafted onto."
+			},
+			{
+				t: "ul",
+				items: [
+					"Dwarf: about 8 to 10 feet apart. Fruits in 2 to 3 years. Often needs a stake.",
+					"Semi-dwarf: about 12 to 15 feet apart.",
+					"Standard: about 20 feet or more apart. Fruits in 5 to 8 years.",
+					"The nursery tag names the rootstock. Ask for it."
+				]
 			},
 			{
 				t: "note",
@@ -499,6 +577,43 @@ var chapters = [
 					"Peaches: around bloom, not in the deep of winter. They fruit on last year’s shoots, so a peach that is never cut becomes a tangle of dead twigs at the top.",
 					"Cherries and plums: light cuts in dry weather, in summer if you can, to avoid the worst of silver-leaf and canker weather.",
 					"Never leave a stub and never cut flush through the collar. The swollen ring at the base of a branch is the tree’s own bandage."
+				]
+			},
+			{
+				t: "h",
+				text: "Tree shapes"
+			},
+			{
+				t: "ul",
+				items: [
+					"Apples and pears: “central leader.” One main trunk in the middle, with layers of branches like a Christmas tree.",
+					"Peaches, nectarines, and plums: “open center.” No middle trunk. Three or four main branches growing out like a vase, so sun reaches the middle.",
+					"Do most pruning while trees are dormant, in late winter, except as noted above."
+				]
+			},
+			{
+				t: "h",
+				text: "Thinning fruit"
+			},
+			{
+				t: "p",
+				text: "When fruit is about the size of a marble, after the natural early drop, pick off extras. Leave one apple or peach every 6 to 8 inches along the branch. It feels wasteful, but you get bigger, better fruit, fewer broken branches, and a crop every year instead of every other year."
+			},
+			{
+				t: "h",
+				text: "Pollination partners"
+			},
+			{
+				t: "p",
+				text: "Some trees need a second, different variety nearby (within about 50 feet) that blooms at the same time. Two trees of the same named variety do not count."
+			},
+			{
+				t: "ul",
+				items: [
+					"Needs a partner: most apples, most pears, Asian pears, most sweet cherries, Japanese plums, pawpaw, many persimmons.",
+					"Usually fine alone: peaches, most apricots, sour (pie) cherries, European plums like Stanley, figs, quince, citrus, pomegranate.",
+					"Crabapples make good pollen partners for apples.",
+					"Always check the nursery tag for “self-fertile” or a list of partners."
 				]
 			},
 			{
@@ -841,12 +956,12 @@ var chapters = [
 			},
 			{
 				t: "p",
-				text: "Ladle hot jam into hot jars at 1/4 inch headspace. Process half-pints and pints 10 minutes in a boiling-water bath at 0–1,000 feet, and add the same altitude minutes as for canned fruit. Butters are thicker, so this book processes them 15 minutes in half-pints only, and tells you to freeze a butter too stiff to settle in the jar."
+				text: "Cool the jars. Store in the refrigerator and use within 3 weeks, or freeze. These kitchen jams, jellies, butters, and conserves are not tested National Center for Home Food Preservation or USDA canning formulas, so they do not go on the pantry shelf. For a shelf jar, use that center’s recipe or a USDA recipe and follow it exactly."
 			},
 			{
 				t: "note",
-				label: "A traditional recipe",
-				text: "The jams here are kitchen recipes in the old style, with a modern boiling-water time on small jars. They are not a substitute for the fine print on a pectin box. If a jam does not set, you have syrup. Call it syrup, keep the seal, and use it in tea or over yogurt. If the seal fails, refrigerate that jar and eat it."
+				label: "Not a tested canning formula",
+				text: "If a jam does not set, you have syrup. Call it syrup, keep it cold, and use it in tea or over yogurt. A sealed lid is not a license to store an untested recipe at room temperature."
 			},
 			{
 				t: "recipes",
@@ -915,7 +1030,7 @@ var chapters = [
 		lede: "Every pot in the book, in one place.",
 		blocks: [{
 			t: "p",
-			text: "Filter by what you are doing today. Canning recipes follow the boiling-water times in the canning chapter. Jams are traditional long-cook recipes with a 10-minute bath on half-pints unless a card says otherwise. Animal cards are treats, not rations. The full rules for those sit in the last chapter."
+			text: "Filter by what you are doing today. Canning recipes for peaches, pears, plums, and applesauce follow National Center for Home Food Preservation boiling-water times. Jams, jellies, and conserves are refrigerated or frozen. Animal cards are treats, not rations. The full rules for those sit in the last chapter."
 		}, { t: "recipe-index" }]
 	},
 	{
@@ -1208,6 +1323,31 @@ var chapters = [
 				text: "What you do not feed, compost. A heap that heats will deal with a modest amount of spoiled fruit. Do not leave the pile where hens can mine it or where last year’s apple scab returns as mulch under the same tree. The loop closes with seed you meant to save, not with rot you meant to forget."
 			}
 		]
+	},
+	{
+		id: "glossary",
+		part: "The words",
+		num: "AZ",
+		title: "Glossary",
+		lede: "The short meanings of the words this guide keeps using.",
+		blocks: [{
+			t: "table",
+			headers: ["Word", "Meaning"],
+			rows: [
+				["Graft", "Joining a twig of one tree onto the roots of another."],
+				["Scion", "The twig of the variety you want."],
+				["Rootstock", "The roots a tree is grafted onto. They control tree size."],
+				["Graft union", "The bump on the trunk where the graft was made."],
+				["Chill hours", "Winter cold hours a tree needs before it will bloom."],
+				["Pollination partner", "A different variety that blooms at the same time."],
+				["Self-fertile", "A tree that can set fruit with its own pollen."],
+				["Central leader", "A tree shape with one main trunk."],
+				["Open center", "A vase-shaped tree with no middle trunk."],
+				["Thinning", "Removing extra small fruit."],
+				["Stratify", "Chilling damp seeds so they will sprout."],
+				["Amygdalin", "A natural chemical in fruit seeds that can turn into cyanide."]
+			]
+		}]
 	}
 ];
 function chapterIndex(id) {
@@ -1398,6 +1538,7 @@ var alsoFruits = [
 	}
 ];
 var BATH = "Boiling-water bath, jars on a rack with an inch or two of water over the lids. Start timing when the water returns to a full rolling boil. Add 5 minutes at 1,001–3,000 feet, 10 at 3,001–6,000, 15 at 6,001–8,000, and 20 at 8,001–10,000. Cool jars upright and untouched for 12–24 hours. A sealed lid is firm and down in the center. Refrigerate any jar that does not seal. If a seal fails later in the cupboard, discard the food without tasting.";
+var COLD = "Store in the refrigerator and use within 3 weeks, or freeze.";
 var recipes = [
 	{
 		id: "quince-apple-jelly",
@@ -1416,10 +1557,10 @@ var recipes = [
 			"Put the chopped fruit in a heavy pot and add water until you can just see it. Simmer, covered, until the fruit is soft and pale, about 45 minutes.",
 			"Pour into a jelly bag or a fine cloth set over a sieve. Let it drip. Squeezing gives more juice and a cloudy jelly; not squeezing gives a clearer one.",
 			"Measure the juice. Add 3/4 cup sugar per cup. Bring to a hard boil, stirring until the sugar dissolves, and cook to the gel point: 8°F above the temperature at which water boils in your kitchen, or until a cold spoon sheets instead of dripping in separate drops.",
-			"Skim, ladle into hot half-pint jars, leave 1/4 inch headspace, wipe rims, and fit new lids.",
-			`Process 10 minutes. ${BATH}`
+			"Skim, ladle into clean jars, and leave 1/4 inch headspace.",
+			COLD
 		],
-		note: "Quince carries the pectin. A very ripe, bland apple will not. If the jelly weeps in the jar, the boil was shy of gel; it is still good on toast, kept refrigerated if the seal is the thing you doubt."
+		note: "Quince carries the pectin. A very ripe, bland apple will not. If the jelly does not set, call it syrup and keep it cold."
 	},
 	{
 		id: "crabapple-jelly",
@@ -1436,7 +1577,7 @@ var recipes = [
 		steps: [
 			"Simmer the crabs until they fall apart. Strain as for quince jelly. Do not push the pulp through.",
 			"Cook juice and sugar to the gel point. Crabapples are often so rich in pectin that the jelly sets suddenly — watch it.",
-			`Jar at 1/4 inch headspace and process half-pints 10 minutes. ${BATH}`
+			COLD
 		]
 	},
 	{
@@ -1456,9 +1597,9 @@ var recipes = [
 			"Score the peaches, blanch a minute, and slip off the skins. Cut away every trace of the pit. Chop.",
 			"Cook peaches, apple, and lemon juice over medium heat until the peaches soften, about 15 minutes, stirring so the bottom does not catch.",
 			"Add the sugar. Boil, stirring often, to the gel point. Peach jam should mound on a cold plate and wrinkle when pushed.",
-			`Ladle into hot half-pint jars, 1/4 inch headspace. Process 10 minutes. ${BATH}`
+			COLD
 		],
-		note: "The apple is there for pectin, the lemon for acid and brightness. This is a traditional long-cook jam, not a boxed-pectin formula. If you switch to commercial pectin, follow that package and keep the fruit fully ripe and yellow-fleshed."
+		note: "The apple is there for pectin, the lemon for acid and brightness. This is a kitchen jam, not a National Center for Home Food Preservation formula."
 	},
 	{
 		id: "mulberry-jam",
@@ -1475,7 +1616,7 @@ var recipes = [
 		steps: [
 			"Crush the berries in the pot with a potato masher. Add the lemon juice and bring to a simmer for 10 minutes.",
 			"Add sugar and boil to a gel. Mulberries can stay loose; cook until a dab on a frozen plate wrinkles.",
-			`Jar, 1/4 inch headspace, process half-pints 10 minutes. ${BATH}`
+			COLD
 		],
 		note: "Wear a dark apron. Mulberry stain is honest and lasting."
 	},
@@ -1495,7 +1636,7 @@ var recipes = [
 		steps: [
 			"Simmer plums with the water until they collapse. Mill them if you want no skin; small plum skins can stay.",
 			"Add sugar and lemon juice. Cook low, stirring often, until a spoon drawn through leaves a trail. It should still settle in the jar, not stand up like paste.",
-			`Pack hot half-pints, 1/4 inch headspace. Process 15 minutes so heat can reach the center of a thick preserve. ${BATH} If the butter is stiff enough to hold a spoon upright, freeze it instead.`
+			COLD
 		]
 	},
 	{
@@ -1515,9 +1656,9 @@ var recipes = [
 		steps: [
 			"Combine figs, lemon juice, zest, and sugar. Rest 20 minutes.",
 			"Boil gently, stirring, until thick and glossy, 20–30 minutes. Figs are not sharp fruit; the bottled lemon juice stays in the recipe.",
-			`Jar at 1/4 inch and process half-pints 10 minutes. ${BATH}`
+			COLD
 		],
-		note: "Do not can whole figs from this chapter. Acidity varies, and the tested times are long. Lemon in a soft conserve, processed in small jars, is the method here. Skip the nuts if you want a smoother seal of fruit alone; if you add them, keep pieces small."
+		note: "Do not can whole figs from this chapter. Acidity varies. This conserve stays in the refrigerator or the freezer. Skip the nuts if you want a smoother conserve; if you add them, keep pieces small."
 	},
 	{
 		id: "pear-ginger",
@@ -1536,7 +1677,7 @@ var recipes = [
 		steps: [
 			"Cook pears, lemon, ginger, and apple if using, until the pears turn clear at the edges.",
 			"Add sugar and boil to a soft gel. Pear conserve is allowed to be tender.",
-			`Jar half-pints, 1/4 inch, process 10 minutes. ${BATH}`
+			COLD
 		],
 		note: "European pears. Asian pears are a different acidity question; use a tested recipe made for them."
 	},
@@ -1557,7 +1698,7 @@ var recipes = [
 			"Soak peel, juice, and the seed bag in the water overnight. The seeds lend pectin.",
 			"Simmer until the peel is tender, an hour or more. Remove the seed bag, squeezing it well.",
 			"Measure the pulp and add the same volume of sugar. Boil to a gel. Marmalade sheets on a cold spoon when it is ready.",
-			`Jar, 1/4 inch, process half-pints 10 minutes. ${BATH}`
+			COLD
 		]
 	},
 	{
@@ -1576,7 +1717,7 @@ var recipes = [
 		steps: [
 			"Simmer the calyces in the water until they are soft and the liquid is deep red, about 15 minutes. Fish out the ginger if you used it.",
 			"Add the sugar and boil to a gel. Roselle is acid and often sets willingly.",
-			`Jar half-pints at 1/4 inch and process 10 minutes. ${BATH}`
+			COLD
 		],
 		note: "This is Hibiscus sabdariffa, the calyx, not the ornamental flower. See the hibiscus chapters before you pick."
 	},
@@ -1598,7 +1739,7 @@ var recipes = [
 			"Hot pack: simmer the peaches in syrup or water for 2 minutes. Fill hot jars, pit cavities down, and cover with boiling liquid. Leave 1/2 inch headspace. Remove bubbles, wipe rims, put on new lids.",
 			`Process hot-packed pints 20 minutes and quarts 25 minutes at 0–1,000 feet. Raw pack is 25 and 30. ${BATH}`
 		],
-		note: "Do not boiling-water can white-flesh peaches. Some of them are not acid enough. Freeze those, or eat them."
+		note: "Tested boiling-water schedule from the National Center for Home Food Preservation for yellow-flesh peaches. Do not boiling-water can white-flesh peaches. Some of them are not acid enough. Freeze those, or eat them."
 	},
 	{
 		id: "pears-in-syrup",
@@ -1617,7 +1758,7 @@ var recipes = [
 			"Simmer in the hot liquid 5 minutes. Pack hot, cover with boiling liquid, 1/2 inch headspace.",
 			`Process pints 20 minutes and quarts 25 minutes at 0–1,000 feet. ${BATH}`
 		],
-		note: "Pick pears when they lift off the spur with a tilt, still firm. Ripen them in a cool room, then can the ones that press slightly at the stem."
+		note: "Tested boiling-water schedule from the National Center for Home Food Preservation for European pears. Pick pears when they lift off the spur with a tilt, still firm. Ripen them in a cool room, then can the ones that press slightly at the stem. Asian pears need a different, acidified recipe."
 	},
 	{
 		id: "applesauce",
@@ -1636,7 +1777,8 @@ var recipes = [
 			"Simmer with a little water until soft. Run through a food mill.",
 			"Return the sauce to the pot, sweeten if you like, and bring it back to a boil.",
 			`Hot pack, 1/2 inch headspace. Process pints 15 minutes and quarts 20 minutes at 0–1,000 feet. ${BATH}`
-		]
+		],
+		note: "Tested boiling-water schedule from the National Center for Home Food Preservation for applesauce. Sugar is optional."
 	},
 	{
 		id: "canned-plums",
@@ -1647,11 +1789,11 @@ var recipes = [
 		fruits: ["Plum"],
 		ingredients: ["Firm ripe plums", "Medium or light syrup, or water"],
 		steps: [
-			"Wash. Prick each skin with a needle so the fruit does not burst. Halve and pit if the stone comes free; otherwise can them whole.",
-			"Hot pack: heat plums in syrup for 2 minutes. Pack, cover with boiling liquid, 1/2 inch headspace.",
+			"Wash. Prick whole plums on two sides with a fork so the skins do not split. Halve and pit freestone plums.",
+			"Hot pack: add the plums to water or hot syrup and boil 2 minutes. Cover and let stand 20 to 30 minutes. Fill jars with the hot plums and cooking liquid. Leave 1/2 inch headspace.",
 			`Process pints 20 minutes and quarts 25 minutes at 0–1,000 feet. ${BATH}`
 		],
-		note: "The pit stays out of anything you will store and later feed, cook down, or give away. If you can whole plums, tell the household the stone is still inside."
+		note: "Tested boiling-water schedule from the National Center for Home Food Preservation for plums, halved or whole. If you can whole plums, the stone is still inside."
 	},
 	{
 		id: "dried-apples",
@@ -2144,117 +2286,124 @@ function BookApp({ chapterId, recipeId, onOpen }) {
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "flex min-w-0 flex-1 flex-col",
-				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", {
-					className: "no-print flex items-center gap-2 border-b border-line bg-sheet px-3 py-2",
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-							type: "button",
-							className: "inline-flex min-h-11 min-w-11 items-center justify-center md:hidden",
-							"aria-label": "Open contents",
-							onClick: () => setMenu(true),
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Menu, { className: "size-5" })
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-							type: "button",
-							className: "min-w-0 flex-1 truncate text-left font-display text-lg",
-							onClick: () => openChapter("cover"),
-							children: "Seed to Seed"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-							type: "button",
-							className: "inline-flex min-h-11 min-w-11 items-center justify-center",
-							"aria-label": "Search the book",
-							onClick: () => setSearchOpen(true),
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Search, { className: "size-5" })
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-							type: "button",
-							className: "inline-flex min-h-11 min-w-11 items-center justify-center",
-							"aria-label": "Change type size",
-							onClick: cycleSize,
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Type, { className: "size-5" })
-						}),
-						chapter ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
-							type: "button",
-							className: "inline-flex min-h-11 min-w-11 items-center justify-center",
-							"aria-label": mark === chapter.id ? "Remove bookmark" : "Bookmark this chapter",
-							"aria-pressed": mark === chapter.id,
-							onClick: toggleMark,
-							children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Bookmark, { className: `size-5 ${mark === chapter.id ? "fill-fruit text-fruit" : ""}` })
-						}) : null
-					]
-				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("main", {
-					id: "reader-scroll",
-					className: "min-h-0 flex-1 overflow-y-auto",
-					children: chapter ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", {
-						className: `reader mx-auto max-w-3xl px-5 pt-8 pb-16 ${sizeClass}`,
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", {
+						className: "no-print flex items-center gap-2 border-b border-line bg-sheet px-3 py-2",
 						children: [
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-								className: "text-xs tracking-[0.18em] text-leaf uppercase",
-								children: [
-									chapter.part,
-									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										className: "px-2 text-line",
-										children: "/"
-									}),
-									chapter.num
-								]
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+								type: "button",
+								className: "inline-flex min-h-11 min-w-11 items-center justify-center md:hidden",
+								"aria-label": "Open contents",
+								onClick: () => setMenu(true),
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Menu, { className: "size-5" })
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
-								className: "mt-2 font-display text-4xl leading-tight text-ink sm:text-5xl",
-								children: chapter.title
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+								type: "button",
+								className: "min-w-0 flex-1 truncate text-left font-display text-lg",
+								onClick: () => openChapter("cover"),
+								children: "Pip to Orchard"
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-								className: "mt-3 text-muted italic",
-								children: chapter.lede
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+								type: "button",
+								className: "inline-flex min-h-11 min-w-11 items-center justify-center",
+								"aria-label": "Search the book",
+								onClick: () => setSearchOpen(true),
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Search, { className: "size-5" })
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-								className: "mt-8 space-y-5",
-								children: chapter.blocks.map((block, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BlockView, {
-									block,
-									onOpen: openChapter,
-									fruitQuery,
-									setFruitQuery,
-									openFruit,
-									setOpenFruit,
-									filter,
-									setFilter,
-									monthId,
-									setMonthId
-								}, `${chapter.id}-${i}`))
+							/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+								type: "button",
+								className: "inline-flex min-h-11 min-w-11 items-center justify-center",
+								"aria-label": "Change type size",
+								onClick: cycleSize,
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Type, { className: "size-5" })
 							}),
-							/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("footer", {
-								className: "mt-12 flex items-stretch justify-between gap-3 border-t border-line pt-6",
-								children: [previous ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-									type: "button",
-									className: "min-h-11 max-w-[46%] text-left",
-									onClick: () => openChapter(previous.id),
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-										className: "flex items-center gap-1 text-xs tracking-wide text-muted uppercase",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronLeft, { className: "size-4" }), " Previous"]
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										className: "mt-1 block font-display text-lg leading-tight",
-										children: previous.title
-									})]
-								}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {}), next ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
-									type: "button",
-									className: "min-h-11 max-w-[46%] text-right",
-									onClick: () => openChapter(next.id),
-									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
-										className: "flex items-center justify-end gap-1 text-xs tracking-wide text-muted uppercase",
-										children: ["Next ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronRight, { className: "size-4" })]
-									}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-										className: "mt-1 block font-display text-lg leading-tight",
-										children: next.title
-									})]
-								}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {})]
-							})
+							chapter ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
+								type: "button",
+								className: "inline-flex min-h-11 min-w-11 items-center justify-center",
+								"aria-label": mark === chapter.id ? "Remove bookmark" : "Bookmark this chapter",
+								"aria-pressed": mark === chapter.id,
+								onClick: toggleMark,
+								children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Bookmark, { className: `size-5 ${mark === chapter.id ? "fill-fruit text-fruit" : ""}` })
+							}) : null
 						]
-					}) : chapterId ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Missing, { onOpen: openChapter }) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Cover, {
-						mark,
-						onOpen: openChapter
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("main", {
+						id: "reader-scroll",
+						className: "min-h-0 flex-1 overflow-y-auto",
+						children: chapter ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", {
+							className: `reader mx-auto max-w-3xl px-5 pt-8 pb-16 ${sizeClass}`,
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+									className: "text-xs tracking-[0.18em] text-leaf uppercase",
+									children: [
+										chapter.part,
+										/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+											className: "px-2 text-line",
+											children: "/"
+										}),
+										chapter.num
+									]
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+									className: "mt-2 font-display text-4xl leading-tight text-ink sm:text-5xl",
+									children: chapter.title
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+									className: "mt-3 text-muted italic",
+									children: chapter.lede
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+									className: "mt-8 space-y-5",
+									children: chapter.blocks.map((block, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(BlockView, {
+										block,
+										onOpen: openChapter,
+										fruitQuery,
+										setFruitQuery,
+										openFruit,
+										setOpenFruit,
+										filter,
+										setFilter,
+										monthId,
+										setMonthId
+									}, `${chapter.id}-${i}`))
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("footer", {
+									className: "mt-12 flex items-stretch justify-between gap-3 border-t border-line pt-6",
+									children: [previous ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+										type: "button",
+										className: "min-h-11 max-w-[46%] text-left",
+										onClick: () => openChapter(previous.id),
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+											className: "flex items-center gap-1 text-xs tracking-wide text-muted uppercase",
+											children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronLeft, { className: "size-4" }), " Previous"]
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+											className: "mt-1 block font-display text-lg leading-tight",
+											children: previous.title
+										})]
+									}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {}), next ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
+										type: "button",
+										className: "min-h-11 max-w-[46%] text-right",
+										onClick: () => openChapter(next.id),
+										children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", {
+											className: "flex items-center justify-end gap-1 text-xs tracking-wide text-muted uppercase",
+											children: ["Next ", /* @__PURE__ */ (0, import_jsx_runtime.jsx)(ChevronRight, { className: "size-4" })]
+										}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+											className: "mt-1 block font-display text-lg leading-tight",
+											children: next.title
+										})]
+									}) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {})]
+								})
+							]
+						}) : chapterId ? /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Missing, { onOpen: openChapter }) : /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Cover, {
+							mark,
+							onOpen: openChapter
+						})
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("footer", {
+						className: "shrink-0 border-t border-line bg-sheet px-4 py-3 text-xs leading-relaxed text-muted",
+						children: "Privacy: This guide does not collect your name, email, or any personal information. Your choices are saved only on your own device."
 					})
-				})]
+				]
 			}),
 			menu ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "no-print fixed inset-0 z-40 md:hidden",
@@ -2341,11 +2490,11 @@ function Sidebar({ progress, activeId, mark, onOpen }) {
 				className: "flex items-center gap-2 text-left",
 				onClick: () => onOpen("cover"),
 				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Leaf, { className: "size-5 text-leaf" }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
-					className: "block font-display text-xl leading-none",
-					children: "Seed to Seed"
+					className: "block font-display text-lg leading-tight",
+					children: "Fruit Trees: Pip to Orchard"
 				}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
 					className: "mt-1 block text-xs tracking-wide text-muted uppercase",
-					children: "A fruit tree almanac"
+					children: "Pocket Guide, Volume 11"
 				})] })]
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "mt-4",
@@ -2400,12 +2549,16 @@ function Cover({ mark, onOpen }) {
 				className: "w-full border border-line"
 			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-					className: "text-xs tracking-[0.2em] text-leaf uppercase",
-					children: "From seed to seed"
+					className: "text-xs tracking-[0.16em] text-leaf uppercase",
+					children: "The Education Revolution Pocket Guide, Volume 11"
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
 					className: "mt-2 font-display text-5xl leading-none text-ink sm:text-6xl",
-					children: "Seed to Seed"
+					children: "Fruit Trees: Pip to Orchard"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "mt-3 font-display text-xl text-bark",
+					children: "by Blue and the Awesome Dudes"
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "mt-4 max-w-xl text-lg leading-relaxed",
@@ -2416,7 +2569,7 @@ function Cover({ mark, onOpen }) {
 					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", {
 						type: "button",
 						className: "inline-flex min-h-11 items-center bg-leaf px-4 font-display text-sheet",
-						onClick: () => onOpen("how-to-use"),
+						onClick: () => onOpen("start-here"),
 						children: "Open the book"
 					}), marked ? /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", {
 						type: "button",

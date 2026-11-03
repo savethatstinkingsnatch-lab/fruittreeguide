@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Seed to Seed";
+const APP_NAME = "Fruit Trees: Pip to Orchard";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -14,7 +14,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "A fruit-tree almanac from seed to seed: planting, saving seed, canning, jams, storage, recipes, hibiscus, and what animals may eat.",
+          "Fruit Trees: Pip to Orchard, a free pocket guide by Blue and the Awesome Dudes. Part of The Education Revolution series.",
       },
       { name: "theme-color", content: "#2c5a38" },
     ],

@@ -2,6 +2,29 @@ import type { Chapter } from "./types";
 
 export const chapters: Chapter[] = [
   {
+    id: "start-here",
+    part: "Front matter",
+    num: "Go",
+    title: "Start here",
+    lede: "New to fruit trees? Do these in order.",
+    blocks: [
+      {
+        t: "ol",
+        items: [
+          "Find your USDA zone and your chill hours (ask your county extension office).",
+          "Pick fruits that fit your winter. Check whether they need a pollination partner.",
+          "Buy grafted trees from a nursery. Seeds from store fruit will not grow the same fruit.",
+          "Plant in full sun, in soil that drains, with the graft bump above the soil.",
+          "Water deeply every week the first summer. Keep grass away from the trunk.",
+          "Prune in late winter. Thin the fruit in early summer.",
+          "Want to grow from seed for fun or for rootstock? See “Waking a seed.”",
+        ],
+      },
+      { t: "jump", label: "Waking a seed", to: "waking-seed" },
+      { t: "jump", label: "Words used in this guide", to: "glossary" },
+    ],
+  },
+  {
     id: "how-to-use",
     part: "Front matter",
     num: "00",
@@ -40,7 +63,7 @@ export const chapters: Chapter[] = [
         t: "ul",
         items: [
           "Water-bath can high-acid fruit. Do not water-bath vegetables, meat, or soup in a fruit jar beside them.",
-          "Use tested times for canned fruit. Jam in this book is the traditional long-cook kind, processed in small jars. If you want a boxed-pectin formula, follow the box.",
+          "Use tested times for canned peaches, pears, plums, and applesauce. The jams, jellies, butters, and conserves in this book are not tested canning formulas. Store them in the refrigerator and use them within 3 weeks, or freeze them.",
           "Do not seal jars with paraffin, cloth, or an inverted lid and a hope. The pantry picture in this book is a mood. The seal is a two-piece lid and a boil.",
           "White-flesh peaches are not for boiling-water canning.",
           "Figs need bottled lemon juice in any jar you process. Their acidity wanders.",
@@ -60,6 +83,20 @@ export const chapters: Chapter[] = [
           "Persimmons and horses do not share a field.",
           "Only cook ripe black or blue elderberry. Not red elder, not leaves, not raw bunches you are unsure of.",
           "Hibiscus for the cup is roselle you grew or a flower you can name, unsprayed. Florist stems are not ingredients.",
+        ],
+      },
+      {
+        t: "h",
+        text: "Stay safe in the orchard",
+      },
+      {
+        t: "ul",
+        items: [
+          "Ladders: Use a 3-legged orchard ladder on soft ground, or a stepladder fully open and locked. Never stand on the top two steps. Don't reach so far that your belt buckle passes the side rail. Have someone nearby.",
+          "Sprays: Even organic sprays can hurt you. Read the whole label. The label is the law. Wear gloves, long sleeves, and eye protection. Never spray open blossoms, because it kills bees. Wait the number of days the label says before you pick.",
+          "Seeds and pits: Never eat, grind, or brew apple seeds or the kernels inside cherry, peach, plum, or apricot pits. They can release cyanide.",
+          "Wild trees: Never eat fruit from a tree or shrub you can't name for sure. Wild cherry leaves are poisonous to livestock. Yew, buckthorn, and nightshade berries are poisonous.",
+          "If someone eats something poisonous, call Poison Control at 1-800-222-1222.",
         ],
       },
       {
@@ -98,6 +135,14 @@ export const chapters: Chapter[] = [
       {
         t: "pull",
         text: "Buy one grafted tree of a fruit you already love. Grow three seedlings of a fruit that comes reasonably true. Learn from the difference.",
+      },
+      {
+        t: "h",
+        text: "Plant patents",
+      },
+      {
+        t: "p",
+        text: "Many new fruit varieties are patented. The tag will show “PP” and a number. It is against the law to graft or root copies of a patented tree to give away or sell until the patent runs out, usually 20 years. Older varieties are free to graft and share.",
       },
     ],
   },
@@ -252,6 +297,14 @@ export const chapters: Chapter[] = [
       },
       {
         t: "h",
+        text: "Chill hours",
+      },
+      {
+        t: "p",
+        text: "Most fruit trees need a certain number of winter hours between 32 and 45°F before they will bloom. This is called chill hours. A tree that needs 800 hours will not fruit well in a warm-winter area that only gets 300. In the South, buy low-chill varieties. Your county extension office can tell you your area's chill hours.",
+      },
+      {
+        t: "h",
         text: "The hole",
       },
       {
@@ -267,6 +320,23 @@ export const chapters: Chapter[] = [
       {
         t: "p",
         text: "Distance is the part people cheat. A standard apple wants a room of its own, on the order of 20 feet. A peach wants 15. A quince or a pomegranate can live closer. Roots share more politely than branches do. Crowded crowns stay wet, and wet blossoms get brown rot and scab.",
+      },
+      {
+        t: "h",
+        text: "Spacing by tree size",
+      },
+      {
+        t: "p",
+        text: "Tree size depends on the rootstock, the roots it was grafted onto.",
+      },
+      {
+        t: "ul",
+        items: [
+          "Dwarf: about 8 to 10 feet apart. Fruits in 2 to 3 years. Often needs a stake.",
+          "Semi-dwarf: about 12 to 15 feet apart.",
+          "Standard: about 20 feet or more apart. Fruits in 5 to 8 years.",
+          "The nursery tag names the rootstock. Ask for it.",
+        ],
       },
       {
         t: "note",
@@ -298,6 +368,43 @@ export const chapters: Chapter[] = [
           "Peaches: around bloom, not in the deep of winter. They fruit on last year’s shoots, so a peach that is never cut becomes a tangle of dead twigs at the top.",
           "Cherries and plums: light cuts in dry weather, in summer if you can, to avoid the worst of silver-leaf and canker weather.",
           "Never leave a stub and never cut flush through the collar. The swollen ring at the base of a branch is the tree’s own bandage.",
+        ],
+      },
+      {
+        t: "h",
+        text: "Tree shapes",
+      },
+      {
+        t: "ul",
+        items: [
+          "Apples and pears: “central leader.” One main trunk in the middle, with layers of branches like a Christmas tree.",
+          "Peaches, nectarines, and plums: “open center.” No middle trunk. Three or four main branches growing out like a vase, so sun reaches the middle.",
+          "Do most pruning while trees are dormant, in late winter, except as noted above.",
+        ],
+      },
+      {
+        t: "h",
+        text: "Thinning fruit",
+      },
+      {
+        t: "p",
+        text: "When fruit is about the size of a marble, after the natural early drop, pick off extras. Leave one apple or peach every 6 to 8 inches along the branch. It feels wasteful, but you get bigger, better fruit, fewer broken branches, and a crop every year instead of every other year.",
+      },
+      {
+        t: "h",
+        text: "Pollination partners",
+      },
+      {
+        t: "p",
+        text: "Some trees need a second, different variety nearby (within about 50 feet) that blooms at the same time. Two trees of the same named variety do not count.",
+      },
+      {
+        t: "ul",
+        items: [
+          "Needs a partner: most apples, most pears, Asian pears, most sweet cherries, Japanese plums, pawpaw, many persimmons.",
+          "Usually fine alone: peaches, most apricots, sour (pie) cherries, European plums like Stanley, figs, quince, citrus, pomegranate.",
+          "Crabapples make good pollen partners for apples.",
+          "Always check the nursery tag for “self-fertile” or a list of partners.",
         ],
       },
       {
@@ -568,12 +675,12 @@ export const chapters: Chapter[] = [
       },
       {
         t: "p",
-        text: "Ladle hot jam into hot jars at 1/4 inch headspace. Process half-pints and pints 10 minutes in a boiling-water bath at 0–1,000 feet, and add the same altitude minutes as for canned fruit. Butters are thicker, so this book processes them 15 minutes in half-pints only, and tells you to freeze a butter too stiff to settle in the jar.",
+        text: "Cool the jars. Store in the refrigerator and use within 3 weeks, or freeze. These kitchen jams, jellies, butters, and conserves are not tested National Center for Home Food Preservation or USDA canning formulas, so they do not go on the pantry shelf. For a shelf jar, use that center’s recipe or a USDA recipe and follow it exactly.",
       },
       {
         t: "note",
-        label: "A traditional recipe",
-        text: "The jams here are kitchen recipes in the old style, with a modern boiling-water time on small jars. They are not a substitute for the fine print on a pectin box. If a jam does not set, you have syrup. Call it syrup, keep the seal, and use it in tea or over yogurt. If the seal fails, refrigerate that jar and eat it.",
+        label: "Not a tested canning formula",
+        text: "If a jam does not set, you have syrup. Call it syrup, keep it cold, and use it in tea or over yogurt. A sealed lid is not a license to store an untested recipe at room temperature.",
       },
       {
         t: "recipes",
@@ -637,7 +744,7 @@ export const chapters: Chapter[] = [
     blocks: [
       {
         t: "p",
-        text: "Filter by what you are doing today. Canning recipes follow the boiling-water times in the canning chapter. Jams are traditional long-cook recipes with a 10-minute bath on half-pints unless a card says otherwise. Animal cards are treats, not rations. The full rules for those sit in the last chapter.",
+        text: "Filter by what you are doing today. Canning recipes for peaches, pears, plums, and applesauce follow National Center for Home Food Preservation boiling-water times. Jams, jellies, and conserves are refrigerated or frozen. Animal cards are treats, not rations. The full rules for those sit in the last chapter.",
       },
       { t: "recipe-index" },
     ],
@@ -921,6 +1028,33 @@ export const chapters: Chapter[] = [
       {
         t: "p",
         text: "What you do not feed, compost. A heap that heats will deal with a modest amount of spoiled fruit. Do not leave the pile where hens can mine it or where last year’s apple scab returns as mulch under the same tree. The loop closes with seed you meant to save, not with rot you meant to forget.",
+      },
+    ],
+  },
+  {
+    id: "glossary",
+    part: "The words",
+    num: "AZ",
+    title: "Glossary",
+    lede: "The short meanings of the words this guide keeps using.",
+    blocks: [
+      {
+        t: "table",
+        headers: ["Word", "Meaning"],
+        rows: [
+          ["Graft", "Joining a twig of one tree onto the roots of another."],
+          ["Scion", "The twig of the variety you want."],
+          ["Rootstock", "The roots a tree is grafted onto. They control tree size."],
+          ["Graft union", "The bump on the trunk where the graft was made."],
+          ["Chill hours", "Winter cold hours a tree needs before it will bloom."],
+          ["Pollination partner", "A different variety that blooms at the same time."],
+          ["Self-fertile", "A tree that can set fruit with its own pollen."],
+          ["Central leader", "A tree shape with one main trunk."],
+          ["Open center", "A vase-shaped tree with no middle trunk."],
+          ["Thinning", "Removing extra small fruit."],
+          ["Stratify", "Chilling damp seeds so they will sprout."],
+          ["Amygdalin", "A natural chemical in fruit seeds that can turn into cyanide."],
+        ],
       },
     ],
   },
