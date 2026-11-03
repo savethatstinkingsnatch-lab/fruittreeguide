@@ -1,0 +1,566 @@
+import type { Recipe, RecipeKind } from "./types";
+
+export const BATH =
+  "Boiling-water bath, jars on a rack with an inch or two of water over the lids. Start timing when the water returns to a full rolling boil. Add 5 minutes at 1,001–3,000 feet, 10 at 3,001–6,000, 15 at 6,001–8,000, and 20 at 8,001–10,000. Cool jars upright and untouched for 12–24 hours. A sealed lid is firm and down in the center. Refrigerate any jar that does not seal. If a seal fails later in the cupboard, discard the food without tasting.";
+
+export const recipes: Recipe[] = [
+  {
+    id: "quince-apple-jelly",
+    title: "Quince and apple jelly",
+    kind: "jelly",
+    makes: "About 4 half-pints",
+    time: "A long afternoon",
+    fruits: ["Quince", "Apple"],
+    ingredients: [
+      "2 pounds quince, washed, chopped, cores included, seeds kept out of the finished jelly",
+      "1 pound tart apples, chopped the same way",
+      "Water to barely cover",
+      "3/4 cup sugar for each cup of strained juice",
+    ],
+    steps: [
+      "Put the chopped fruit in a heavy pot and add water until you can just see it. Simmer, covered, until the fruit is soft and pale, about 45 minutes.",
+      "Pour into a jelly bag or a fine cloth set over a sieve. Let it drip. Squeezing gives more juice and a cloudy jelly; not squeezing gives a clearer one.",
+      "Measure the juice. Add 3/4 cup sugar per cup. Bring to a hard boil, stirring until the sugar dissolves, and cook to the gel point: 8°F above the temperature at which water boils in your kitchen, or until a cold spoon sheets instead of dripping in separate drops.",
+      "Skim, ladle into hot half-pint jars, leave 1/4 inch headspace, wipe rims, and fit new lids.",
+      `Process 10 minutes. ${BATH}`,
+    ],
+    note: "Quince carries the pectin. A very ripe, bland apple will not. If the jelly weeps in the jar, the boil was shy of gel; it is still good on toast, kept refrigerated if the seal is the thing you doubt.",
+  },
+  {
+    id: "crabapple-jelly",
+    title: "Crabapple jelly",
+    kind: "jelly",
+    makes: "About 4 half-pints",
+    time: "Half a day",
+    fruits: ["Apple"],
+    ingredients: [
+      "3 pounds crabapples, stems off, blemishes cut away, chopped",
+      "Water to cover",
+      "3/4 to 1 cup sugar per cup of juice, to taste",
+    ],
+    steps: [
+      "Simmer the crabs until they fall apart. Strain as for quince jelly. Do not push the pulp through.",
+      "Cook juice and sugar to the gel point. Crabapples are often so rich in pectin that the jelly sets suddenly — watch it.",
+      `Jar at 1/4 inch headspace and process half-pints 10 minutes. ${BATH}`,
+    ],
+  },
+  {
+    id: "peach-jam",
+    title: "Peach jam with a green apple",
+    kind: "jam",
+    makes: "About 5 half-pints",
+    time: "Under two hours",
+    fruits: ["Peach", "Apple"],
+    ingredients: [
+      "8 cups chopped ripe yellow-flesh peaches, skins off (about 4 pounds)",
+      "1 small tart green apple, grated, skin on, core and seeds discarded",
+      "1/4 cup bottled lemon juice",
+      "4 cups sugar",
+    ],
+    steps: [
+      "Score the peaches, blanch a minute, and slip off the skins. Cut away every trace of the pit. Chop.",
+      "Cook peaches, apple, and lemon juice over medium heat until the peaches soften, about 15 minutes, stirring so the bottom does not catch.",
+      "Add the sugar. Boil, stirring often, to the gel point. Peach jam should mound on a cold plate and wrinkle when pushed.",
+      `Ladle into hot half-pint jars, 1/4 inch headspace. Process 10 minutes. ${BATH}`,
+    ],
+    note: "The apple is there for pectin, the lemon for acid and brightness. This is a traditional long-cook jam, not a boxed-pectin formula. If you switch to commercial pectin, follow that package and keep the fruit fully ripe and yellow-fleshed.",
+  },
+  {
+    id: "mulberry-jam",
+    title: "Mulberry jam",
+    kind: "jam",
+    makes: "About 4 half-pints",
+    time: "One hour, plus picking",
+    fruits: ["Mulberry"],
+    ingredients: [
+      "8 cups stemmed ripe mulberries, a few still red if you can find them",
+      "1/4 cup bottled lemon juice",
+      "4 cups sugar",
+    ],
+    steps: [
+      "Crush the berries in the pot with a potato masher. Add the lemon juice and bring to a simmer for 10 minutes.",
+      "Add sugar and boil to a gel. Mulberries can stay loose; cook until a dab on a frozen plate wrinkles.",
+      `Jar, 1/4 inch headspace, process half-pints 10 minutes. ${BATH}`,
+    ],
+    note: "Wear a dark apron. Mulberry stain is honest and lasting.",
+  },
+  {
+    id: "plum-butter",
+    title: "Plum butter",
+    kind: "butter",
+    makes: "About 4 half-pints",
+    time: "A slow evening",
+    fruits: ["Plum"],
+    ingredients: [
+      "4 pounds plums, pitted",
+      "1/2 cup water",
+      "2 cups sugar, more if the plums are very tart",
+      "2 tablespoons bottled lemon juice",
+    ],
+    steps: [
+      "Simmer plums with the water until they collapse. Mill them if you want no skin; small plum skins can stay.",
+      "Add sugar and lemon juice. Cook low, stirring often, until a spoon drawn through leaves a trail. It should still settle in the jar, not stand up like paste.",
+      `Pack hot half-pints, 1/4 inch headspace. Process 15 minutes so heat can reach the center of a thick preserve. ${BATH} If the butter is stiff enough to hold a spoon upright, freeze it instead.`,
+    ],
+  },
+  {
+    id: "fig-conserve",
+    title: "Fig and lemon conserve",
+    kind: "jam",
+    makes: "About 4 half-pints",
+    time: "One hour",
+    fruits: ["Fig"],
+    ingredients: [
+      "2 pounds ripe figs, stems off, chopped",
+      "1/3 cup bottled lemon juice",
+      "Zest of one lemon, no white pith",
+      "2 cups sugar",
+      "A small handful of chopped toasted walnut, optional, added at the end",
+    ],
+    steps: [
+      "Combine figs, lemon juice, zest, and sugar. Rest 20 minutes.",
+      "Boil gently, stirring, until thick and glossy, 20–30 minutes. Figs are not sharp fruit; the bottled lemon juice stays in the recipe.",
+      `Jar at 1/4 inch and process half-pints 10 minutes. ${BATH}`,
+    ],
+    note: "Do not can whole figs from this chapter. Acidity varies, and the tested times are long. Lemon in a soft conserve, processed in small jars, is the method here. Skip the nuts if you want a smoother seal of fruit alone; if you add them, keep pieces small.",
+  },
+  {
+    id: "pear-ginger",
+    title: "Pear and ginger conserve",
+    kind: "jam",
+    makes: "About 5 half-pints",
+    time: "About an hour",
+    fruits: ["Pear"],
+    ingredients: [
+      "8 cups peeled, cored, finely chopped ripe pears",
+      "1/4 cup bottled lemon juice",
+      "1 tablespoon finely grated fresh ginger",
+      "3 cups sugar",
+      "1 tart apple, grated, core discarded, if you want a firmer set",
+    ],
+    steps: [
+      "Cook pears, lemon, ginger, and apple if using, until the pears turn clear at the edges.",
+      "Add sugar and boil to a soft gel. Pear conserve is allowed to be tender.",
+      `Jar half-pints, 1/4 inch, process 10 minutes. ${BATH}`,
+    ],
+    note: "European pears. Asian pears are a different acidity question; use a tested recipe made for them.",
+  },
+  {
+    id: "marmalade",
+    title: "Small-batch citrus marmalade",
+    kind: "jam",
+    makes: "About 3 half-pints",
+    time: "A day, mostly waiting",
+    fruits: ["Citrus"],
+    ingredients: [
+      "1 pound mixed citrus — orange, lemon, a grapefruit if you like it bitter",
+      "Water, about 4 cups",
+      "Sugar equal to the volume of the cooked pulp, often about 3 cups",
+    ],
+    steps: [
+      "Wash the fruit. Halve, squeeze the juice, and keep the seeds in a small cloth bag. Slice the peels thin. The white pith is part of marmalade; leave it.",
+      "Soak peel, juice, and the seed bag in the water overnight. The seeds lend pectin.",
+      "Simmer until the peel is tender, an hour or more. Remove the seed bag, squeezing it well.",
+      "Measure the pulp and add the same volume of sugar. Boil to a gel. Marmalade sheets on a cold spoon when it is ready.",
+      `Jar, 1/4 inch, process half-pints 10 minutes. ${BATH}`,
+    ],
+  },
+  {
+    id: "roselle-jam",
+    title: "Roselle jam",
+    kind: "jam",
+    makes: "About 4 half-pints",
+    time: "One hour",
+    fruits: ["Hibiscus"],
+    ingredients: [
+      "4 cups roselle calyces, seed pods pulled out, roughly chopped",
+      "1 cup water",
+      "3 cups sugar",
+      "A coin of fresh ginger, optional",
+    ],
+    steps: [
+      "Simmer the calyces in the water until they are soft and the liquid is deep red, about 15 minutes. Fish out the ginger if you used it.",
+      "Add the sugar and boil to a gel. Roselle is acid and often sets willingly.",
+      `Jar half-pints at 1/4 inch and process 10 minutes. ${BATH}`,
+    ],
+    note: "This is Hibiscus sabdariffa, the calyx, not the ornamental flower. See the hibiscus chapters before you pick.",
+  },
+  {
+    id: "peaches-in-syrup",
+    title: "Peaches in light syrup",
+    kind: "can",
+    makes: "7 quarts or 9 pints, from a canner load",
+    time: "An afternoon",
+    fruits: ["Peach"],
+    ingredients: [
+      "About 17 pounds of ripe yellow-flesh freestone peaches for a full canner, less for a smaller batch",
+      "Light syrup, or water, or unsweetened apple juice",
+      "Bottled lemon juice or a crushed vitamin C tablet in the holding water, to slow browning",
+    ],
+    steps: [
+      "Use yellow-flesh peaches only. Wash, blanch, peel, halve, and pit. Hold the fruit in water with a little lemon juice.",
+      "Make a light syrup if you want one: for a 9-pint load, 5 3/4 cups water and 1 1/2 cups sugar, heated until the sugar dissolves. Syrup is for taste. It is not what makes the jars safe.",
+      "Hot pack: simmer the peaches in syrup or water for 2 minutes. Fill hot jars, pit cavities down, and cover with boiling liquid. Leave 1/2 inch headspace. Remove bubbles, wipe rims, put on new lids.",
+      `Process hot-packed pints 20 minutes and quarts 25 minutes at 0–1,000 feet. Raw pack is 25 and 30. ${BATH}`,
+    ],
+    note: "Do not boiling-water can white-flesh peaches. Some of them are not acid enough. Freeze those, or eat them.",
+  },
+  {
+    id: "pears-in-syrup",
+    title: "Pears in syrup",
+    kind: "can",
+    makes: "A canner load, or any smaller even number of jars",
+    time: "An afternoon",
+    fruits: ["Pear"],
+    ingredients: [
+      "Firm-ripe European pears, about 2 pounds per quart",
+      "Light or medium syrup, juice, or water",
+      "Lemon juice in the holding water",
+    ],
+    steps: [
+      "Peel, halve, and core. Drop into lemon water.",
+      "Simmer in the hot liquid 5 minutes. Pack hot, cover with boiling liquid, 1/2 inch headspace.",
+      `Process pints 20 minutes and quarts 25 minutes at 0–1,000 feet. ${BATH}`,
+    ],
+    note: "Pick pears when they lift off the spur with a tilt, still firm. Ripen them in a cool room, then can the ones that press slightly at the stem.",
+  },
+  {
+    id: "applesauce",
+    title: "Canned applesauce",
+    kind: "can",
+    makes: "Depends on the apples; a peck is a good start",
+    time: "A morning",
+    fruits: ["Apple"],
+    ingredients: [
+      "Sound apples, mixed varieties if you have them",
+      "A cup or two of water, only enough to keep the pot from scorching",
+      "Sugar only if you want it — it is optional here",
+    ],
+    steps: [
+      "Wash, quarter, and cut away bruises. Leave skins on for the cook; they will be milled out. Keep seeds out of the finished sauce — quarter carefully and do not mill so hard that broken seeds pass through.",
+      "Simmer with a little water until soft. Run through a food mill.",
+      "Return the sauce to the pot, sweeten if you like, and bring it back to a boil.",
+      `Hot pack, 1/2 inch headspace. Process pints 15 minutes and quarts 20 minutes at 0–1,000 feet. ${BATH}`,
+    ],
+  },
+  {
+    id: "canned-plums",
+    title: "Plums in syrup",
+    kind: "can",
+    makes: "A canner load",
+    time: "An afternoon",
+    fruits: ["Plum"],
+    ingredients: [
+      "Firm ripe plums",
+      "Medium or light syrup, or water",
+    ],
+    steps: [
+      "Wash. Prick each skin with a needle so the fruit does not burst. Halve and pit if the stone comes free; otherwise can them whole.",
+      "Hot pack: heat plums in syrup for 2 minutes. Pack, cover with boiling liquid, 1/2 inch headspace.",
+      `Process pints 20 minutes and quarts 25 minutes at 0–1,000 feet. ${BATH}`,
+    ],
+    note: "The pit stays out of anything you will store and later feed, cook down, or give away. If you can whole plums, tell the household the stone is still inside.",
+  },
+  {
+    id: "dried-apples",
+    title: "Dried apple rings",
+    kind: "dry",
+    makes: "A string or two from a small basket",
+    time: "Most of a day",
+    fruits: ["Apple"],
+    ingredients: [
+      "Firm apples",
+      "A bowl of water with a tablespoon of bottled lemon juice, optional, to keep the color",
+    ],
+    steps: [
+      "Peel or not, as you like. Core and slice into rings about 1/4 inch thick. Seeds go in the compost, not into the dryer.",
+      "Dip if you want them pale. Arrange so pieces do not overlap.",
+      "Dry at about 135°F until leathery and a piece snaps only after it bends — usually 6–12 hours. There should be no moist pocket in the center.",
+      "Condition: pack loosely in a jar for a week, shake daily. If beads of moisture appear, dry again. Then seal, label, and keep dark and cool.",
+    ],
+    note: "Oven drying works with the door ajar and an oven thermometer you trust. The goal is warm moving air, not a roast.",
+  },
+  {
+    id: "dried-hibiscus",
+    title: "Dried roselle for the jar",
+    kind: "dry",
+    makes: "A winter’s tea from a summer row",
+    time: "A few hours to a couple of days",
+    fruits: ["Hibiscus"],
+    ingredients: ["Fresh roselle calyces, pods removed"],
+    steps: [
+      "Pick when the calyx is plump and still tender, after the flower has fallen and before it turns woody. Separate calyx from the green seed pod. Rinse and pat dry.",
+      "Dry in a dehydrator around 135°F until brittle, or on screens in the shade with air moving. Sun bleaches the red. An oven on its lowest setting, door cracked, works if you stay nearby.",
+      "Condition in a jar for several days. Any softness means more drying. Store airtight, dark, and labeled. Use within a year for the best color.",
+    ],
+    note: "Save a few pods on the plant until they go brown if you want seed. Those pods are not for the teapot.",
+  },
+  {
+    id: "baked-apples",
+    title: "Baked apples",
+    kind: "fresh",
+    makes: "One apple each",
+    time: "45 minutes",
+    fruits: ["Apple"],
+    ingredients: [
+      "Large baking apples, cores taken out and seeds discarded",
+      "A spoon of brown sugar or honey in each cavity",
+      "A pinch of cinnamon, a dot of butter",
+      "A splash of water or apple cider in the dish",
+    ],
+    steps: [
+      "Heat the oven to 375°F. Set the apples in a small dish so they hold each other up.",
+      "Fill the cores. Pour a little liquid around them.",
+      "Bake until a skewer meets no resistance, 35–50 minutes. Baste once with the juices.",
+    ],
+  },
+  {
+    id: "pear-crisp",
+    title: "Pear crisp",
+    kind: "fresh",
+    makes: "One 8-inch dish",
+    time: "One hour",
+    fruits: ["Pear"],
+    ingredients: [
+      "6 ripe pears, peeled, cored, sliced",
+      "1 tablespoon lemon juice",
+      "2 tablespoons sugar",
+      "1 cup rolled oats, 1/2 cup flour, 1/3 cup brown sugar, a pinch of salt",
+      "6 tablespoons cold butter, cut in",
+    ],
+    steps: [
+      "Heat the oven to 375°F. Toss pears with lemon and sugar. Spread in a buttered dish.",
+      "Work the butter into the dry topping until it clumps. Scatter it on.",
+      "Bake until the pears are tender and the top is browned, about 40 minutes.",
+    ],
+  },
+  {
+    id: "fig-toast",
+    title: "Warm figs on toast",
+    kind: "fresh",
+    makes: "Breakfast for two",
+    time: "15 minutes",
+    fruits: ["Fig"],
+    ingredients: [
+      "6 ripe figs, quartered",
+      "Thick toast, buttered",
+      "Soft cheese or ricotta",
+      "Honey and a few thyme leaves, optional",
+    ],
+    steps: [
+      "Warm the figs in a small skillet with a dot of butter until they just slump.",
+      "Spread cheese on the toast, spoon on the figs, and finish with honey if the figs are not already sweet.",
+    ],
+  },
+  {
+    id: "pomegranate-syrup",
+    title: "Pomegranate syrup",
+    kind: "syrup",
+    makes: "About 1 cup",
+    time: "40 minutes",
+    fruits: ["Pomegranate"],
+    ingredients: [
+      "4 cups pomegranate arils, or 2 cups fresh juice",
+      "1/2 cup sugar",
+      "1 tablespoon lemon juice",
+    ],
+    steps: [
+      "If you start with arils, crush them and strain out the seeds. Do not include the bitter white membrane.",
+      "Simmer juice, sugar, and lemon until it coats a spoon, 15–25 minutes. It will thicken more as it cools.",
+      "Bottle and refrigerate. Use within a few weeks, or freeze in a small jar with headspace. This is a fridge syrup, not a canned one.",
+    ],
+  },
+  {
+    id: "mulberry-shrub",
+    title: "Mulberry shrub",
+    kind: "syrup",
+    makes: "About a pint",
+    time: "A day of waiting, then a week",
+    fruits: ["Mulberry"],
+    ingredients: [
+      "2 cups crushed ripe mulberries",
+      "2 cups sugar",
+      "2 cups mild vinegar, cider vinegar is the usual choice",
+    ],
+    steps: [
+      "Stir berries and sugar. Cover and refrigerate a day, stirring once, until the sugar draws out the juice.",
+      "Strain. Do not force the seeds through if you can help it.",
+      "Stir in the vinegar. Bottle and keep cold. Shake before you use it. A spoonful in cold water is the drink.",
+    ],
+    note: "A shrub is a drinking vinegar. It is not shelf-stable canning. Keep it in the refrigerator and use it in a month or two.",
+  },
+  {
+    id: "hibiscus-hot",
+    title: "Roselle tea, hot",
+    kind: "tea",
+    makes: "One pot, about a quart",
+    time: "15 minutes",
+    fruits: ["Hibiscus"],
+    ingredients: [
+      "1/3 cup dried roselle calyces, or a loose cup of fresh ones",
+      "1 quart water",
+      "Lemon and honey only if you want them",
+    ],
+    steps: [
+      "Bring the water to a boil and take it off the heat. Add the calyces, cover, and steep 10 minutes.",
+      "For a deeper cup, simmer five minutes instead of steeping, then strain. Long boiling makes it dull.",
+      "Strain. Serve plain, or with a strip of lemon. Sweeten in the cup, not in a jar you mean to keep.",
+    ],
+    note: "A cup is kitchen tea. Drinking it by the pot every day, especially in pregnancy or alongside blood-pressure medicine, is a question for a clinician. This book is for the cup.",
+  },
+  {
+    id: "hibiscus-iced",
+    title: "Iced roselle",
+    kind: "tea",
+    makes: "A pitcher",
+    time: "20 minutes plus cooling",
+    fruits: ["Hibiscus"],
+    ingredients: [
+      "1/2 cup dried calyces",
+      "1 quart water",
+      "Ice, and orange or lemon if you have it",
+    ],
+    steps: [
+      "Simmer the calyces in the water for 5 minutes. Steep off the heat another 10. Strain and cool.",
+      "Pour over ice. If you sweeten, dissolve the sugar in the hot tea before it cools.",
+      "Keep the unsweetened brew refrigerated and drink it within three days.",
+    ],
+  },
+  {
+    id: "orchard-blend",
+    title: "Orchard peel and hibiscus blend",
+    kind: "tea",
+    makes: "A jar of dry blend",
+    time: "The drying, then five minutes a cup",
+    fruits: ["Apple", "Pear", "Hibiscus", "Citrus"],
+    ingredients: [
+      "1 cup dried apple peel",
+      "1/2 cup dried pear peel",
+      "1/2 cup dried roselle",
+      "Zest of one orange or lemon, dried until brittle, white pith left off",
+    ],
+    steps: [
+      "Dry unsprayed peels the same way you dry apple rings, until they snap. Mix with the roselle and dried zest.",
+      "Store airtight and dark.",
+      "Steep a heaping tablespoon in a mug of just-boiled water for 8 minutes. Strain.",
+    ],
+    note: "Only peels from fruit you would eat unpeeled, washed, and never sprayed with something you would not want in a cup.",
+  },
+  {
+    id: "hibiscus-syrup",
+    title: "Hibiscus syrup",
+    kind: "syrup",
+    makes: "About 2 cups",
+    time: "30 minutes",
+    fruits: ["Hibiscus"],
+    ingredients: [
+      "1 cup dried roselle, or 2 cups fresh calyces, pods removed",
+      "2 cups water",
+      "1 1/2 cups sugar",
+      "A squeeze of lemon",
+    ],
+    steps: [
+      "Simmer calyces and water 10 minutes. Strain and press gently.",
+      "Stir in the sugar and lemon and simmer just until the sugar is gone and the syrup nappes a spoon.",
+      "Cool, bottle, and refrigerate. Use within a month, or freeze. Sparkling water and a spoon of this is the whole drink.",
+    ],
+  },
+  {
+    id: "flower-salad",
+    title: "Hibiscus flower salad",
+    kind: "fresh",
+    makes: "A bowl",
+    time: "20 minutes",
+    fruits: ["Hibiscus"],
+    ingredients: [
+      "Petals from unsprayed Hibiscus rosa-sinensis or rose of Sharon, picked the morning you eat them",
+      "Cucumber or orange, mild greens",
+      "A pinch of salt, a little oil, a drop of lemon",
+    ],
+    steps: [
+      "Shake insects out of the flowers. Pull the petals free. Nip off the base of each petal if it tastes tough, and set the stamen column aside.",
+      "Toss petals in at the last minute so they do not blacken and wilt into the dressing.",
+      "Taste one petal plain first. They should be mildly tart or grassy. If a plant tastes bitter or soapy, do not serve it.",
+    ],
+    note: "Florist hibiscus and any plant on systemic insecticide are not food. Roselle’s useful part is the calyx, not this salad.",
+  },
+  {
+    id: "hen-scratch",
+    title: "Hen scratch from the orchard",
+    kind: "animal",
+    makes: "One treat for a small flock, not a day’s feed",
+    time: "10 minutes",
+    fruits: ["Apple", "Pear", "Mulberry", "Hibiscus"],
+    ingredients: [
+      "2 cups chopped sound apple or pear flesh — every seed, stem, and core piece removed",
+      "1/2 cup mashed ripe mulberry or serviceberry, or unsweetened spent roselle calyces, cooled",
+      "1 cup of their usual scratch grain",
+    ],
+    steps: [
+      "Sort the fruit in the grass or on a table. Anything bruised deep, moldy, foamy, or fermented goes to a hot compost, not the birds.",
+      "Chop the flesh small. Mix with grain so they cannot fill up on fruit alone.",
+      "Offer it in a clean dish. Take away whatever is left by evening. A few times a week is a treat. It does not replace layer feed, grit, or clean water.",
+    ],
+    note: "No pits. No cherry, peach, plum, or apricot stones. No leaves or prunings from those trees. No sugar, no xylitol, no jam, no syrup. Full rules are in the animals’ chapter.",
+  },
+  {
+    id: "spent-calyx",
+    title: "Spent calyces for the hens",
+    kind: "animal",
+    makes: "The leftovers of a pot of tea",
+    time: "The time it takes the tea to cool",
+    fruits: ["Hibiscus"],
+    ingredients: [
+      "Roselle calyces you have already steeped, with no sugar, honey, or essential oil in the pot",
+      "A handful of their regular grain",
+    ],
+    steps: [
+      "Strain the tea for yourself. Cool the calyces completely.",
+      "Chop them and fold into a little grain.",
+      "Feed as a small treat. If the birds ignore it, compost it. Do not let sweetened or moldy leftovers sit in the run.",
+    ],
+  },
+];
+
+export const recipeById: Record<string, Recipe> = Object.fromEntries(
+  recipes.map((recipe) => [recipe.id, recipe]),
+);
+
+export const kindLabel: Record<RecipeKind, string> = {
+  jam: "Jam",
+  jelly: "Jelly",
+  butter: "Butter",
+  can: "Canning",
+  dry: "Drying",
+  fresh: "At the table",
+  tea: "Tea",
+  syrup: "Syrup",
+  animal: "For animals",
+};
+
+export type RecipeFilter =
+  | "all"
+  | "can"
+  | "jam"
+  | "dry"
+  | "fresh"
+  | "tea"
+  | "syrup"
+  | "animal";
+
+export const recipeFilters: { id: RecipeFilter; label: string }[] = [
+  { id: "all", label: "All" },
+  { id: "can", label: "Canning" },
+  { id: "jam", label: "Jams & jellies" },
+  { id: "dry", label: "Drying" },
+  { id: "fresh", label: "The table" },
+  { id: "tea", label: "Teas" },
+  { id: "syrup", label: "Syrups" },
+  { id: "animal", label: "Animals" },
+];
+
+export function recipeMatches(kind: RecipeKind, filter: RecipeFilter): boolean {
+  if (filter === "all") return true;
+  if (filter === "jam") return kind === "jam" || kind === "jelly" || kind === "butter";
+  return kind === filter;
+}

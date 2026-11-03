@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+  --font-body: "Literata", "Iowan Old Style", Palatino, "Palatino Linotype", serif;
+  --color-paper: #f3ead7;
+  --color-paper-deep: #e6dcc6;
+  --color-sheet: #faf6ec;
+  --color-ink: #1e2418;
+  --color-muted: #4e5644;
+  --color-line: #d4c6ae;
+  --color-leaf: #2c5a38;
+  --color-leaf-soft: #e4efe3;
+  --color-fruit: #b33b3a;
+  --color-fruit-soft: #f6e6e1;
+  --color-bark: #3d3428;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  html {
+    background: var(--color-paper);
+    color: var(--color-ink);
+  }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--color-paper);
+    color: var(--color-ink);
+    min-height: 100%;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-leaf);
+    outline-offset: 2px;
+  }
+}
+
+.reader p {
+  line-height: 1.6;
+}
+
+.drop::first-letter {
+  font-family: var(--font-display);
+  float: left;
+  font-size: 3.15rem;
+  line-height: 0.78;
+  padding: 0.12rem 0.45rem 0 0;
+  color: var(--color-leaf);
+  font-weight: 620;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+  }
+
+  .reader {
+    max-width: none;
+  }
+}

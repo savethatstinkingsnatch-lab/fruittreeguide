@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 1376,
+      "bodyTextHash": "a1539d495535e8b518e615565735be66c155b55a8a62c4ca1b72cf49a9e1c841",
+      "bodyTextPrefix": "Seed to Seed A FRUIT TREE ALMANAC 0% of the chapters opened FRON",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 808,
+      "bodyTextHash": "c736ee9d92a7db564ce52ec13027a6a5435b051a5b9010be8a97b994f92ba847",
+      "bodyTextPrefix": "Seed to Seed FROM SEED TO SEED Seed to Seed Fruit trees grown, e",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
