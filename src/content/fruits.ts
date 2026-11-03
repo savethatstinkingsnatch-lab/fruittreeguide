@@ -119,7 +119,7 @@ export const fruits: Fruit[] = [
     sow: "Surface or barely covered. Do not let the tiny seed dry. Mark the pot; the seedlings look like weeds.",
     years: "Often 3–8 years, and then more fruit than you can pick. Place the tree where stains do not matter.",
     seed: "Ripe fruit, mashed through a sieve, pulp washed away, seed dried only if you will not sow it now.",
-    kitchen: "Jam, shrub, and a handful eaten over the grass. Cook them if you are unsure of the species and they taste flat or odd raw; ripe fruit from a known tree is the ordinary snack.",
+    kitchen: "Jam, shrub, and a handful eaten over the grass. Only eat fully ripe berries from a tree you have identified for sure. Unripe berries and the white sap from leaves and stems can upset your stomach or irritate skin. If you are not sure what tree it is, do not eat it. Cooking does not make an unknown berry safe.",
     caution: "Unripe fruit and quantities of leaves are not animal feed. Male pollen bothers some people; a fruiting tree is what you want anyway.",
   },
   {

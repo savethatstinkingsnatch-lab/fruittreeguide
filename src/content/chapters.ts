@@ -962,6 +962,8 @@ export const chapters: Chapter[] = [
           ["Persimmons, for horses", "Seeds and calyxes can cause impaction"],
           ["Jam, jelly, syrup, shrub, or sweetened tea", "Sugar, and sometimes xylitol in a human sweetener nearby"],
           ["Raw or cooked elder leaves, stems, unripe or red elder", "Not feed"],
+          ["Grapes and raisins, for dogs", "Can cause kidney failure, even in small amounts"],
+          ["Avocado skin, pit, and leaves", "Poisonous to birds, rabbits, goats, horses, and other livestock"],
           ["Any plant recently sprayed with a systemic pesticide", "The chemical is in the leaf and the fruit"],
         ],
       },
