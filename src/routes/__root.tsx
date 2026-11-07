@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Fruit Trees: Pip to Orchard";
+const APP_NAME = "Volume 11: Fruit Trees (The Education Revolution)";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -14,7 +14,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Fruit Trees: Pip to Orchard, a free pocket guide by Blue and the Awesome Dudes. Part of The Education Revolution series.",
+          "Volume 11 of The Education Revolution, by Blue and the Awesome Dudes. Fruit Trees: Pip to Orchard, a free pocket guide.",
       },
       { name: "theme-color", content: "#2c5a38" },
     ],
